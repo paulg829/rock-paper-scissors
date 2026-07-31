@@ -70,3 +70,43 @@ const humanSelection = getHumanChoice();
 const computerSelection = getComputerChoice();
 
 playRound(humanSelection, computerSelection);
+
+
+function playGame() {
+
+    humanScore = 0;
+    computerScore = 0;
+
+    for (let i = 0; i < 5; i++) {
+
+        const humanSelection = getHumanChoice();
+        const computerSelection = getComputerChoice();
+
+        playRound(humanSelection, computerSelection);
+
+    }
+
+    console.log("---------");
+
+    if (humanScore > computerScore) {
+
+        console.log("You won the game!");
+    }
+
+    else if (humanScore < computerScore) {
+
+        console.log("Computer wins the game!");
+
+    }
+
+    else {
+
+        console.log("The game ends in a tie!");
+
+    }
+
+    console.log(`Final Score: ${humanScore}, ${computerScore}`);
+
+}
+
+playGame();
