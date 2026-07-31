@@ -1,5 +1,7 @@
 console.log("Hello World");
 
+let computerScore = 0;
+let humanScore = 0;
 
 function getComputerChoice() {
 
