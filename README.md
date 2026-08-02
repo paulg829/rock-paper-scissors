@@ -4,4 +4,4 @@ An in-console rock-paper-scissors game made via JavaScript
 
 ![Rock-Paper-Scissors Screenshot](rps.png)
 
-[Live Demo] (https://paulg829.github.io/rock-paper-scissors/)
+[Live Demo](https://paulg829.github.io/rock-paper-scissors/)
